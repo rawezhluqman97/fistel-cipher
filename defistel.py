@@ -78,4 +78,5 @@ def decode(binary):
 binary_list = input("Enter the cipher : ")
 for i in binary_list.split(" "):
     decode(i)
+    
 print("\n[+] decoded : "+''.join(word_latter) +"\n")
